@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'Raleway Regular';
+    src: url("/fonts/raleway-regular_[allfont.net].ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    padding: 20px;
+    background-color: #1d1c1c;
+    color: #ffffff;
+    font-family: 'Raleway Regular', arial;
+
+}
+.col{
+    display: inline-block;
+    width: 33.3%;
+    text-align: center;
+    margin-left: -4px;
+    padding: 0px 25px;
+}
+
+
+.main {
+    width: 100%;
+    max-width: 1100px;
+    margin: 30% auto;
+}
+
+.title_2{
+    font-size: 24px;
+    padding: 40px;
+
+}
+
+.text {
+    font-size: 14px;
+    line-height: 24px;
+
+}
